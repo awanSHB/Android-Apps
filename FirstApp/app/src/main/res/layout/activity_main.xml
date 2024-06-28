@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wa"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="327dp"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:backgroundTint="#D5CECE"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:text="Username"
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textColorHint="#CFC0C0"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="334dp"
+        android:layout_height="51dp"
+        android:background="@color/white"
+        android:backgroundTint="#D5CECE"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+</RelativeLayout>
